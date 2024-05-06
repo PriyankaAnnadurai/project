@@ -1,4 +1,4 @@
-# project
+# Project
 ## Aim
 To write a python program using OpenCV to do the following image manipulations.
 i) Extract ROI from  an image.
@@ -46,6 +46,10 @@ Flatten the index,confidence.
 Display the result.
 
 ## PROGRAM:
+```
+Developed by: Priyanka.A
+Register No: 212222230113
+```
 ### I)Perform ROI from an image
 ```python
 import cv2
@@ -117,7 +121,7 @@ with open(file_name,'rt')as fpt:
 
 print(classLabels)
 print(len(classLabels))
-img=cv2.imread('cow.jpg')
+img=cv2.imread('bike.jpg')
 plt.imshow(img)
 plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 model.setInputSize(320,320)
@@ -135,6 +139,8 @@ plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 ```
 
 #### OUTPUT:
+
+![image](https://github.com/PriyankaAnnadurai/project/assets/118351569/aae10794-e2b3-4661-b3c2-d4964b50994a)
 
 
 ## Result:
